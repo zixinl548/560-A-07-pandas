@@ -1,9 +1,9 @@
 import pandas as pd
 
-roster = ["Bacot", "Davis", "Cadeau"]
-player = {"Last Name": roster,
+player = {"Last Name": ["Bacot", "Davis", "Cadeau"],
           "First Name": ["Armando", "RJ", "Elliot"],
           "height": [83, 72, 731],
-          "weight": [240,180,1801]}
+          "weight": [240,180, 180]
+          }
 data = pd.DataFrame(player)
 print(data)
